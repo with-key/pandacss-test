@@ -1,6 +1,8 @@
 import { defineConfig } from "@pandacss/dev";
+import { corePresets } from "@mold/user/presets";
 
 export default defineConfig({
+  presets: [corePresets],
   // Whether to use css reset
   preflight: true,
 
@@ -14,9 +16,7 @@ export default defineConfig({
   exclude: [],
 
   // Useful for theme customization
-  theme: {
-    extend: {},
-  },
+  theme: {},
 
   // The output directory for your css system
   importMap: "@biskit/styled-system",
