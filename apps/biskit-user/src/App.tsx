@@ -4,13 +4,11 @@ import { button } from "@biskit/styled-system/recipes";
 export default function App() {
   return (
     <>
-      <div className={button({ visual: "edgy" })}>hello world!</div>
-      <MyButton variant="funky">hello world!</MyButton>
-
-      <styled.span bg="yellow">hello world!</styled.span>
-      <styled.span bg="yellow">hello world!</styled.span>
-
       <div className={button({})}>hello world!</div>
+      <div className={button({})}>hello world!</div>
+      <MyButton variant="funky">hello world!</MyButton>
+      <styled.span bg="yellow">hello world!</styled.span>
+      <styled.span bg="yellow">hello world!</styled.span>
     </>
   );
 }
